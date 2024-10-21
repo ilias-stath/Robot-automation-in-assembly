@@ -8,4 +8,4 @@ By doing this the robot knows where there are walls, roads, roads that were alre
 Some important things to consider: <br />
 - If for some reason the map is divided in sections by walls that do not allow the robot to walk into said section/sections, then the robot will only explore the section/sections that has access to by road.<br />
 - Roads all considered all cells that are empty(do not have walls or lamps).<br />
-- If you run the code using emu8086, you must definetly put the "step delay ms" at 1. If you see the robot missing some steps or not behaving correctly, then put the "step delay ms" at 100. Further delay won't be needed. If you don't take the step delay into account, then the robot programm won't funtion properly.
+- If you run the code using emu8086, you must definetly put the "step delay ms" at 1. If you see the robot missing some steps or not behaving correctly, then put the "step delay ms" at 100. Further delay won't be needed. If you don't take the step delay into account, then the programm won't funtion properly.
