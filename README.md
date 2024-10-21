@@ -1,5 +1,5 @@
 # Robot-automation-in-assembly
-This is a project created for the course Computer Architecture of my university.
+This is a project created for the course Computer Architecture of my university. <br />
 It uses the virtual device robot.exe and the goal of the project is for the robot to find and close all the lamps that are on.
 At the start the programm creates a 2D grid and then takes as input the place of the robot, based on a grid i provide that gives a number to each cell, and its orientation and places it in said grid.
 From the starting place, it checks all cells that can be checked with only rotation, these are the cells that are 1 space up,down,right or left of the robot. If it finds a lamp it checks if it is closed or not. If it is it continues, otherwise it first closes it and the continues.
