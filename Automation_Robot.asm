@@ -582,7 +582,7 @@ CODE SEGMENT
     Algorythm PROC
         PUSHA
         
-        ;Something like a djikstra adaptation. The algorythm tries checks visited locations from before to see if the have an not visited road next to them
+        ;The algorythm tries checks visited locations from before to see if the have an not visited road next to them
         ;Then it tries to find the shortest path to get there
         
         MOV DX,0
