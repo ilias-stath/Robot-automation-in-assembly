@@ -7,4 +7,4 @@ After checking all these cells the robot updates the grid with each cell value. 
 By doing this the robot knows where there are walls, roads, roads that were already walked and lamps. Thus if the robot reaches a dead end, it will simply go backwards and select a path to visit in order to reach a road that is not yet walked. If it cannot find such path then the algorythm is sure that it has explored the entirety of the map and finishes.<br />
 Some important things to consider: <br />
 - If for some reason the map is divided in sections by walls that do not allow the robot to walk into said section, then the robot will only explore the section/sections that has access to by road.<br />
-- Roads all considered all cells that are empty(do not have walls or lamps).
+- Roads all considered all cells that are empty(do not have walls or lamps).<br />
